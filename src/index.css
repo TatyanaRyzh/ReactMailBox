@@ -1,0 +1,95 @@
+body {
+    padding: 0;
+    margin: 0;
+}
+
+.mailbox {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #61646b;
+}
+
+.mailbox-header {
+    height: 8vh;
+    width: 99%;
+    background-color: #24272e;
+    padding-left: 1vw;
+    font-weight: 800;
+    line-height: 8vh;
+    font-size: 30px;
+}
+
+.mailbox-navigation {
+    float: left;
+    width: 15vw;
+    height: 92vh;
+    background-color: #383b42;
+     color: #b6b6b6;
+}
+
+.mailbox-navigation .read-status {
+    margin: 5px;
+    height: 9vh;
+    width: 30px;
+    border-radius: 10px;
+    float: left;
+}
+
+.mailbox-navigation .status {
+    background-color: #49aa96;
+    width: 20px;
+    height: 20px;
+    border-radius: 10px;
+}
+
+.mailbox-navigation .content {
+    float: left;
+}
+.mailbox-navigation .sender {
+    font-size: 22px;
+}
+
+.mailbox-navigation .item {
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 1vw;
+    height: 9vh;
+    border-bottom: 1px solid #5f5f5f;
+}
+
+.mailbox-navigation .item:hover {
+    background-color: #5f5f5f;
+}
+
+.mailbox-navigation .no-read {
+    background-color: #215522;
+}
+
+.mailbox-navigation .read {
+    background-color: #24272e;
+}
+
+.mailbox-navigation .selected{
+    background-color: #215522;
+}
+
+.mailbox-navigation .selected:hover{
+    background-color: #215522;
+}
+
+.mailbox-navigation .delete {
+    float: right;
+    margin-right: 10px;
+    margin-top: 5px;
+    cursor: pointer;
+}
+
+.mailbox-navigation .icon {
+    width: 20px;
+    height: 20px;
+}
+
+.mailbox-content {
+    font-size: 18px;
+    padding: 10px;
+}
+

@@ -1,2 +1,0 @@
-# ReactMailBox
-Test REACT component
